@@ -1,0 +1,45 @@
+.item-wrapper {
+    height: auto;
+    width: 90%;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    margin: 5%;
+    padding: 2%;
+    display: grid;
+    grid-template-columns: 9fr 1fr;
+}
+
+.item-wrapper p {
+    font-size: 16px;
+    height: fit-content;
+}
+
+.montant-date {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#category-texte {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 90%;
+}
+
+#montant {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    text-align: right;
+}
+
+#date {
+    grid-column-start: 0;
+    grid-column-end: 1;
+    text-align: left;
+}
+
+#checkbox {
+    align-self: center right;
+    width: 90%;
+    height: 90%;
+    padding-right: 50%;
+}

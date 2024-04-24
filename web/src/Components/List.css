@@ -1,0 +1,6 @@
+.liste {
+    background-color: #605d5d;
+    background-clip: content-box;
+    border-radius: 10px;
+    overflow: auto;
+}

@@ -1,0 +1,21 @@
+#button-copy-container {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 30px;
+    height: 30px;
+    padding: 1%;
+    background-color: #1343ed;
+    border-radius: 10px;
+}
+
+#button-copy {
+    width: 25px;
+    height: 25px;
+    background-color: #1343ed;
+    background-image: url("../../src/Ressources/Images/copyIcon.svg");
+    background-size: 70% 70%;
+    background-repeat: no-repeat;
+    background-position: 30% 30%;
+    border-radius: 10px;
+}

@@ -3,6 +3,7 @@ import { AppProvider } from "./Components/AppContext";
 import List from "./Components/List";
 import DragAndDrop from "./Components/DragAndDrop";
 import Total from "./Components/Total";
+import Statistiques from "./Components/Statistiques";
 
 function App() {
   return (
@@ -24,7 +25,6 @@ function App() {
           <div class="statistiques"></div>
         </div>
         <div class="liste-wrapper">
-          {/* <div class="liste"></div> */}
           <List class="liste" />
         </div>
       </div>
